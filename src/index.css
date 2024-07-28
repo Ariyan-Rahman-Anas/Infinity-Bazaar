@@ -1,3 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.section-heading{
+  @apply text-3xl font-semibold tracking-tight
+}
+.section-subheading{
+  @apply text-xl font-semibold text-gray-700
+}
+.input{
+  @apply block w-full rounded-md border-0 py-1.5 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-primary sm:text-sm sm:leading-6
+}
+.radio-input{
+  @apply h-4 w-4 border-gray-300 text-primary focus:ring-primary
+}
+.label{
+  @apply block text-sm font-medium leading-6 text-gray-600
+}
+.btn{
+  @apply min-w-full rounded-md border border-transparent bg-primary px-6 py-3 text-base font-medium text-white hover:bg-indigo-700 duration-500
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
